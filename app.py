@@ -1,10 +1,10 @@
-from flask import flask
-app = flask (_name_)
+from flask import Flask
+app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-  return 'GreyMatters'
+    return 'GreyMatters'
 
 
-if _name_ == "_main_":
-  app.run()
+if __name__ == "__main__":
+    app.run()
